@@ -18,6 +18,6 @@ public class DmvSimulator {
         }
 
         System.out.println("Now serving number: " + userNumber);
-        System.out.println("You don’t have the required paperwork.");
+        System.out.println("You don’t have the required paperwork and you smell bad and you're not funny");
     }
 }
