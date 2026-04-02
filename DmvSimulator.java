@@ -3,7 +3,7 @@ import java.util.Random;
 public class DmvSimulator {
     public static void main(String[] args) {
         Random rand = new Random();
-        int userNumber = rand.nextInt(100) + 1;
+        int userNumber = rand.nextInt(200) + 1;
 
         System.out.println("Welcome to the DMV!");
         System.out.println("Your number is: " + userNumber);
@@ -12,7 +12,7 @@ public class DmvSimulator {
         int current = userNumber + 1;
 
         while (current != userNumber) {
-            if (current > 100) current = 1;
+            if (current > 200) current = 1;
             System.out.println("Now serving number: " + current);
             current++;
         }
